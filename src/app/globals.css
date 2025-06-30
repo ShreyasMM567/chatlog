@@ -26,7 +26,6 @@ body {
   background: #000000;
   position: relative;
   min-height: 100vh;
-  overflow: hidden;
 }
 
 .animated-gradient-bg::before {
