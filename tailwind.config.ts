@@ -21,6 +21,9 @@ const config: Config = {
         'glow': 'glow 4s ease-in-out infinite',
         'glow-slow': 'glow 6s ease-in-out infinite',
         'glow-slower': 'glow 8s ease-in-out infinite',
+        'float-slow': 'floatY 12s ease-in-out infinite',
+        'float-medium': 'floatY 8s ease-in-out infinite',
+        'float-fast': 'floatY 5s ease-in-out infinite',
       },
       keyframes: {
         pulse: {
@@ -38,6 +41,10 @@ const config: Config = {
             transform: 'scale(1.05)',
             filter: 'blur(1px)'
           },
+        },
+        floatY: {
+          '0%, 100%': { transform: 'translateY(0px)' },
+          '50%': { transform: 'translateY(-30px)' },
         },
       },
     },

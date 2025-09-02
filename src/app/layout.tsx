@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import AnimatedDecor from "../components/AnimatedDecor";
 
 const inter = Inter({
   subsets: ["latin"],
